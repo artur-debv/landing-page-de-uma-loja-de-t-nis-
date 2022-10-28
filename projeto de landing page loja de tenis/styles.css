@@ -1,0 +1,997 @@
+:root {
+    --header-height: 3.5rem;
+    --hue-color: 240;
+    --first-color: hsl(var(--hue-color), 70%, 60%);
+    --fisrt-color-second: hsl(var(--hue-color), 1%, 6%);
+    --first-color-alt: hsl(var(--hue-color), 50%, 50%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 100%);
+    --title-color-gradient: linear-gradient(to left, #03001e, #9307f1, #7109e7 , #1100ff );
+    --subtitle-section-gradient: linear-gradient(to left, #ffffff, #00ffdd, #fa0404);
+    --text-color: hsl(var(--hue-color), 8%, 85%);
+    --text-color-lighter: hsl(var(--hue-color), 20%, 70%);
+    --text-color-button: hsl(var(--hue-color), 0%, 0%);
+    --contact-color-button: hsl(var(--hue-color), 0%, 15%);
+    --input-color: hsl(var(--hue-color), 8%, 5%);
+    --input-color-selection: hsl(var(--hue-color), 20%, 25%);
+    --body-color: hsl(var(--hue-color), 10%, 8%);
+    --header-color: hsl(var(--hue-color), 10%, 8%);
+    --container-color: hsl(257, 10%, 5%);
+    --qualification-bar-color: hsl(var(--hue-color), 92%, 85%);
+    --qualification-color: hsl(var(--hue-color), 100%, 50%);
+    --scroll-thumb-color: hsl(var(--hue-color), 68%, 50%);
+    --scroll-bar-color: hsl(var(--hue-color), 10%, 15%);
+    --body-font: 'Poppins', sans-serif;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+    --big-font-size: 2.3rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.3rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+    --primary: #FFCE00;
+    --secondary: #FE4880;
+    --dark: #212121;
+    --light: #F3F3F3;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container_all{
+    width: 100%;
+    height: 113vh;
+    background-color: #e4dfdc;
+    padding: 12px 24px 0px;
+}
+
+
+.h1_h1_title{
+    font-size: 50px;
+    color: #2d2b2c;
+    margin-bottom: 16px;
+}
+
+.p_title{
+    margin-bottom: 20px;
+}
+
+.a_home{
+    color: black;
+}
+
+
+.btn{
+    background:black;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 5px;
+    width: 135px;
+}
+
+.button_a{
+    display: flex;
+    gap: 20px;
+}
+
+.h1{
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.title{
+    padding: 20px;
+    padding-left: 52px;
+    padding-top: 35px;
+}
+
+
+.container-15 {
+    height: 597px;
+    background-color: hsl(var(--hue-color), 10%, 8%);
+}
+
+.form {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.input1 {
+    display: flex;
+    height: 50px;
+    width: 621px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: var(--input-color);
+    border: none;
+    border-radius: 20px;
+    color:white;
+    padding-left: 20px;
+}
+
+input::placeholder{
+    color:white;
+}
+
+textarea::placeholder{
+    color:white;
+
+}
+
+
+
+textarea{
+    color: white;
+}
+
+
+
+
+
+
+.h2-contato {
+    color: white;
+    text-align: center;
+    padding-top: 54px;
+    margin-bottom: 55px;
+}
+
+
+.btn-2 {
+    background-color: black;
+    color: white;
+    width: 186px;
+    height: 48px;
+    border-radius: 10px;
+    margin-left: -423px;
+}
+
+
+textarea {
+    width: 612px;
+    height: 161px;
+    margin-left: 1px;
+    background-color: var(--input-color);
+    border: none;
+    margin-bottom: 20px;
+    resize: none;
+    padding-top: 12px;
+    padding-left: 8px;
+}
+
+
+input:focus{
+    outline: 0;
+}
+
+
+textarea:focus{
+    outline: 0;
+}
+
+
+.h1_footer{
+    font-size: 30px;
+    padding: 73px;
+}
+
+
+.main_title {
+    padding: 89px;
+    padding-top: 60px;
+}
+
+aside {
+    display: flex;
+    padding-top: 60px;
+}
+
+
+.h1_main {
+    color: white;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.a_href {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#footer {
+    background: black;
+    color: #919496;
+    height: 138px;
+}
+
+
+.icons-about {
+    text-align: center;
+    font-size: 22px;
+}
+
+.h2-footer {
+    text-align: center;
+    padding-top: 44px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+.bxl-github:before {
+    content: "\e93a";
+    color:white;
+    font-size: 24px;
+}
+
+
+.label_Feminino label {
+    cursor:pointer;
+}
+
+
+.label_Feminino label {
+    cursor:pointer;
+}
+
+.label_outro label{
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+.bxl-instagram:before {
+    content: "\e942";
+    color:white;
+    font-size: 24px;
+}
+
+
+.bxl-linkedin-square:before {
+    content: "\e94e";
+    color:white;
+    font-size: 24px;
+}
+
+
+
+.container_1{
+    background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url(../img/hero-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+.form_container{
+     background-color: red;
+     height: 365px;
+}
+
+
+
+.container_2{
+    display: flex;
+    margin-left: 44px;
+    padding-left: 135px;
+  }
+
+.p_price{
+    color: black;
+    margin-top: 6px;
+    font-size: 22px;
+}
+
+
+
+
+
+.h1_about_1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.container_about_1{
+    background-color: whitesmoke;
+    height: 598px;
+    margin-top: -41px;
+}
+
+.conteudo{
+    display: flex;
+    margin-top: -41px;
+    margin-left: -54px;
+}
+
+
+
+
+.bx-cart-add:before {
+    content: "\ef30";
+    font-size: 40px;
+    color: #5846f9;
+}
+
+
+
+
+.about_1{
+    padding-top: 6px;
+    width: 396px;
+}
+
+
+.about_2{
+    padding-top: 6px;
+    width: 396px;
+}
+
+
+.about_3{
+    padding-top: 6px;
+    width: 396px;
+}
+
+
+
+.about_4{
+    padding-top: 6px;
+    width: 396px;
+}
+
+
+.about_5{
+    padding-top: 6px;
+    width: 396px;
+}
+
+
+
+
+
+
+.p_card{
+    text-align: center;
+    margin-top: 18px;
+    width: 324px;
+    margin-left: 16px;
+}
+
+.bx-cart-add {
+    content: "\ef30";
+    padding-left: 147px;
+    padding-top: 21px;
+}
+
+
+
+.h1_title_card{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 83px;
+    color: #2d2b2c;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.div_serviços{
+    background-color: aliceblue;
+    height: 804px;
+}
+
+
+
+
+
+.card_about_1{
+    background-color: white;
+    width: 349px;
+    height: 245px;
+    display: flex;
+    gap: 19px;
+    margin-bottom: 20px;
+}
+
+
+
+.card_about_2{
+    background-color: white;
+    width: 349px;
+    height: 245px;
+    display: flex;
+    gap: 19px;
+    margin-bottom: 20px;
+}
+
+
+
+.card_about_3{
+    background-color: white;
+    width: 349px;
+    height: 245px;
+    display: flex;
+    gap: 19px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.bxs-customize:before {
+    content: "\ed73";
+    font-size: 40px;
+    color: #5846f9;
+}
+
+
+.bxs-customize {
+    content: "\ed73";
+    padding-left: 147px;
+    padding-top: 21px;
+}
+
+
+
+.card_about_4{
+    background-color: white;
+    width: 349px;
+    height: 245px;
+    display: flex;
+    gap: 19px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card_about_5{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.title_h1_h1{
+    color: red;
+}
+
+
+
+
+.div_card{
+    margin-left: 284px;
+}
+
+.h1-sobre {
+    text-align: center;
+    color: mediumpurple;
+    font-size: 30px;
+    padding-top: 52px;
+    margin-bottom: 38px;
+}
+
+.corpo{
+    margin-top: 40px;
+}
+
+.texto{
+    display: table-cell;
+    float: right;
+    width: 529px;
+    margin-left: 31px;
+    margin-bottom: 20px;
+    margin-top: 37px;
+    text-align: justify;
+}
+
+.img_logo_nike{
+    width: 242px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 253px;
+    margin-top: 112px;
+}
+
+
+
+.img_2{
+  margin-top: 44px;
+    width: 413px;
+}
+
+
+.container--info {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+
+  /*animaçao keyframes */
+  .img_2{
+        animation: flutuaçao 10s ease-in-out infinite;
+    }
+    
+    @keyframes flutuaçao {
+        0%,100%{
+            transform: translatey(0px);
+        }
+        40%{
+            transform: translateY(-19px);
+        }
+    }
+
+
+
+/* parte do resete da pagina */
+
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing:border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.icon-avatar{
+    width: 46px;
+    border-radius: 80px;
+}
+
+/* parte do estilizaçao do menu */
+
+.menu{
+    display: flex;
+    gap: 59px;
+    padding: 0 5%;
+    height: 111px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.h1_menu{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* parte do estilaçao da imagem da esquerda */
+
+.left-side-menu{
+   display:flex;
+   gap: 50px;
+}
+
+
+.container_info{
+    background-color: hsl(var(--hue-color), 10%, 8%);
+    height: 800px;
+    margin-top: -186px;
+}
+
+/* parte do estilizaçao da navegaçao e e o atributo ul parte dos componentes  e li parte das escritas */
+
+nav ul li {
+    display: inline-block;
+
+    margin-right: 30px;
+
+}
+
+
+
+
+
+/* parte do estilizaçao da navegaçao e e o atributo ul parte dos componentes  e li parte das escritas e estilaçao de todos em base(A) que e tag de atributo LINK */
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+   color:black;
+
+}
+
+nav ul li a:hover{
+ color: gray;
+ transition: 1s;
+}   
+
+
+
+/* parte do estilizaçao da navbar da direitas */
+
+.right-side-menu{
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+/* parte da estilizaçao do avatar(personagem)  */
+
+.icon-avatar img{
+    width: 46px;
+    border-radius: 80px;
+}
+
+/* parte do cabeçalho  */
+
+header{
+    display:flex;
+
+    flex-direction: column;
+
+}
+
+
+
+/* parte do estilizaçao da (linha)  */
+
+.line{
+   height: 1px;
+
+   background-color:#ddd;
+
+   width: 100% ;
+
+   align-self: center;
+
+
+}
+
+
+
+
+
+/* parte da estilizaçao  da  campo da imagem */
+
+.select-image{
+    max-width: 400px
+}
+
+
+/* parte da estilizaçao do recipiente da pagina*/
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height:calc(100vh - 85px);
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    background: whitesmoke;
+}
+
+/* parte do estilizaçao  da parte dos  sneakers (left-side) lado esquerdo  */
+
+.left-side{
+    display: flex;
+    width: 100%;
+    flex-direction: column;  
+    
+}
+
+
+.items{
+    align-self: flex-end;
+}
+
+
+/* parte do estilizaçao do lado direito  */
+.right-side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.about_title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.container_about{
+    background-color: lightgray;
+    height: 256px;
+}
+
+
+/* parte da estilizaçao da imagem select-images*/
+.select-images{
+  max-width: 400px;   
+}
+
+
+
+
+
+
+/* parte da estilizaçao da imagem dentro do campo da imagem em (.select-image) este campo esta dentro dessa tag*/
+
+.select-images img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* parte da estilizaçao das imagems*/
+
+.images{
+    display: flex;
+    max-width: 400px;
+    
+    gap: 10px;
+}
+
+
+/* parte da estilizaçao das imagems com atributo (img)*/
+
+.images img{
+  width: 100%;
+ border-radius: 10px;
+  width: 100%;
+}
+
+
+/* parte do  lado direito so com estilo no texto => (h6)*/
+
+.right-side h6{
+    color:#ffa500;
+}
+
+/* parte da estilizaçao do  paragrafo do  lado direito*/
+
+.right-side p{
+    color:gray;
+    font-size: 14px;
+}
+
+
+/* parte da estilizaçao do (preço)  */
+.price{
+  font-size: 16px; 
+  font-weight: 700; 
+}
+
+
+/* parte da estilizaçao do (preço de desconto)  */
+.off{
+    font-size: 12px;
+    color:#ccc;
+}
+
+/* parte da estilizaçao do sinal de (+) para adicionar no carrinho   */
+.amout{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color:hsl(223,64%, 98%);
+    width: fit-content;
+    padding:10px 20px;
+    border-radius:10px;
+
+}
+
+/* parte da estilizaçao do sinal de (+) para adicionar no carrinho  com atributo (span)  */
+.amount span{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+/* parte da estilizaçao do sinal de (-) para tirar do carrinho  com atributo (minus,plus )*/
+
+.minus, .plus {
+   cursor:pointer;
+}
+
+/* parte da estilizaçao do botao )*/
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* parte da estilizaçao do (botao) e a imagem do carrinho )*/
+.button img{
+   width: 14px;
+}
+
+/* parte da estilizaçao do (botao) e a imagem do carrinho )*/
+.button-1{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    background-color:#ffa500;
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+
+
+
+
+ul{
+    margin-top: 1px;
+}
+
+
+/* parte da estilizaçao da opção  )*/
+
+.options{
+    display: flex;
+
+}
+
+
+a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: none;
+  color: #333333;
+  opacity: 0.8;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+
+
+a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -3px;
+  left: 0px;
+  transition: 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.container--info {
+  margin-top: 50px;
+  width: 40%;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 83px;
+  color: #2d2b2c;
+  margin-bottom: 12px;
+}
+
+.info {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.container--actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+button {
+  width: 197.25px;
+  height: 54.32px;
+  background: #2d2b2c;
+  border-radius: 8px;
+  border: none;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+.img--shoe {
+  width: 30%;
+  position: absolute;
+  right: 200px;
+  top: 0px;
+}
+
+
+
+
+
+
+

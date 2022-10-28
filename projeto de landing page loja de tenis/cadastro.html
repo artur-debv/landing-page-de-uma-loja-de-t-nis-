@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1 class="title_h1"><a class="href_home" href="index.html">sneakers</a></h1>
+        </div>
+        <div class="container_all">
+            <div class="title_form">
+                <h1 class="h1_title_form">Criar seu cadastro</h1>
+                <p class="p_title_form">veja seus pedidos de forma fácil, compre mais rápido e tenha uma 
+                    <br>
+                    experiência personalizada :)</p>
+            </div>
+            <div class="icons">
+                <p class="p_icon"><span class="icon">*</span>campos obrigatórios</p>
+            </div>
+            <div class="container_form_2">
+            <div class="form">
+                <label class="label_form_inputs">
+                    <span class="icon">*</span>nome completo</p>
+                    <input class="input_label_form" type="text" placeholder="Informe seu nome e seu sobrenome">
+                </label>
+            <div class="form">
+                <label class="label_form_inputs">
+                    <span class="icon">*</span>gênero</p>
+                    <p class="p_label">pra gente te conhecer um pouquinho melhor :)</p>
+                    <div class="div_inputs">
+                    <div class="div_1">
+                    <input class="input_1" type="radio" name='selecao' value='A'>
+                    <label class="label_Feminino">Feminino</label>
+                </div>
+               <div class="div_2">
+                    <input class="input_2" type="radio" name='selecao' value='b'>
+                    <label  class="label_masculino">Masculino</label>
+                </div>
+                <div class="div_3">
+                    <input class="input_3" type="radio" name='selecao' value='c'>
+                    <label class="label_outro">não informar</label>
+                </div>
+                </label>
+            </div>
+             <div class="div_genero">
+                <span class="icon">*</span>data de nascimento</p>
+                <p class="div_genero_1">necessário pra identificar a maioridade, no formato DD/MM/AAAA</p>
+                <input  data-cy="formField__birthDate" type="date" required="" mask="99/99/9999" maxlength="10" autocorrect="off" name="birthDate" placeholder="__/__/____" class="sc-fjqEFS jvwqVg" value="">
+             </div>
+             <div class="div_cpf">
+                <span class="icon">*</span>CPF</p>
+                <p class="p_cpf">necessário pra emissão das Notas Fiscais</p>
+                <input class="sc-fjqEFS jvwqVg-2" type="number" placeholder="___.___.___-__">
+                <a class="href_cpf" href="">é pessoa jurídica? conheça a americanas empresas</a> 
+             </div>
+              <div class="div_tel">
+                <span class="icon">*</span>telefone</p>
+                <p class="p_tel">caso a gente precise entrar em contato sobre seus pedidos</p>
+                <input class="sc-fjqEFS jvwqVg-3" type="tel" value="(__) _____-____">
+                <div class="div_whats">
+                    <div cursor="text" type="checkbox" id="input-border" class="sc-hgZZql cQSWrj"><input data-cy="formField__promotionalEmails" type="checkbox" name="promotionalEmails" placeholder="" class="sc-fjqEFS jvwqVg" value="" checked=""><figure class="sc-liHMlC ijbTXw"></figure><span class="sc-cuqtlR SqLbb"><span class="sc-fThYeS gcUEUK"></span><span class="sc-fSUSjI QaUYy">receber notificações por whatsapp</span><p class="sc-bTmccw iJgMEp"></p></span></div>
+            </div>
+              <div class="icon_email">
+                <span class="icon">*</span>e-mail</p>
+                <p class="p_email">Informe um e-mail válido. Você vai precisar ativar sua conta depois de criar seu cadastro</p>
+                <input class="input_email" type="text" placeholder="Ex. joaodasilva@gmail.com">
+              </div>
+              <div class="div_senha">
+                <span class="icon">*</span>Senha</p>
+                <p class="p_senha">precisa ter entre 6 e 20 caracteres</p>
+                <input class="input_senha" type="text">
+              </div>
+               <div class="div_about">
+                <div cursor="text" type="checkbox" id="input-border" class="sc-hgZZql cQSWrj"><input data-cy="formField__promotionalEmails" type="checkbox" name="promotionalEmails" placeholder="" class="sc-fjqEFS jvwqVg" value="" checked=""><figure class="sc-liHMlC ijbTXw"></figure><span class="sc-cuqtlR SqLbb"><span class="sc-fThYeS gcUEUK"></span><span class="span_1">compartilhar meus dados com parceiros para ter 
+                    <br>
+                    conteúdos personalizados, vaja <a class="href_about" href="#"> como funciona.</a></span><p class="sc-bTmccw iJgMEp"></p></span></div>
+               </div>
+                <button class="btn">Criar seu cadastro</button>
+              </div>
+               <div class="href_entrar">
+                    <p class="p_href">já tem cadastro?<a class="href_entrar" href="">entrar</a></p>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

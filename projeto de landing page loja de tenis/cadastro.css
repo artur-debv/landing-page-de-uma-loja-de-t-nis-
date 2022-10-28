@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    height: 136px;
+    background-color: black;
+}
+
+
+.title {
+    padding: 35px;
+    margin-left: 190px;
+    padding-top: 42px;
+}
+
+
+.div_1{
+    margin-bottom: 9px;
+    display: flex;
+    gap: 5px;
+}
+
+.div_2{
+    margin-bottom: 9px;
+    display: flex;
+    gap: 5px;
+}
+
+.div_3{
+    margin-bottom: 9px;
+    display: flex;
+    gap: 5px;
+}
+
+
+.div_4{
+    margin-bottom: 9px;
+    display: flex;
+    gap: 5px;
+}
+
+.p_label{
+    font-size: 13px;
+    margin-left: 11px;
+    color: gray;
+    margin-bottom: 9px;
+}
+
+.href_home {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.label_Feminino   {
+    cursor:pointer;
+    color: rgb(102, 102, 102);
+}
+
+
+.input_1{
+    width: 20px;
+    color: rgb(102, 102, 102);
+}
+
+.input_2{
+    width: 20px;
+}
+
+.input_3{
+    width: 20px;
+}
+.cQSWrj
+
+.label_masculino  {
+    cursor:pointer;
+    color: rgb(102, 102, 102);
+}
+
+
+.container_all{
+    background-color: white;
+    height: 1352px;
+}
+
+
+.href_entrar{
+    color: rgb(102, 102, 102);
+}
+
+
+.btn{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-color: rgb(248, 0, 50);
+    border: 1px solid rgb(248, 0, 50);
+    border-radius: 8px;
+    padding: 12px;
+    height: 48px;
+    width: 329px;
+}
+
+
+.container_form_2{
+    display: flex;
+    justify-content: center;
+    margin-left: 345px;
+}
+
+
+
+.p_href{
+    margin-left: 83px;
+}
+
+.href_entrar{
+    margin-left: 6px;
+    margin-bottom: 27px;
+    font-size: 20px;
+}
+
+.href_about{
+    color:gray;
+}
+
+.span_1{
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    max-width: 382px;
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+
+.input_senha{
+    border: 1px solid rgb(153, 153, 153);
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 48px;
+    padding: 16px 15px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+
+.p_senha{
+    color:gray;
+    margin-bottom: 6px;
+}
+
+.input_email {
+    margin-top: 7px;
+    margin-left: -3px;
+    width: 351px;
+    height: 41px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    padding-left: 11px;
+}
+
+
+.icon_email{
+    margin-left: 9px;
+    margin-bottom: 27px;
+}
+
+
+.cQSWrj {
+    display: flex;
+    -webkit-box-align: center;
+    padding: var(--default-font-size) 1rem;
+    width: 100%;
+    cursor: text;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    position: relative;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 7px;
+    margin-bottom: 45px;
+}
+
+
+.p_email{
+    color:gray
+}
+
+.cQSWrj input[type="checkbox"]::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: 2px solid rgb(153, 153, 153);
+    margin-right: 8px;
+    box-sizing: initial;
+}
+
+
+.SqLbb {
+    font-size: var(--default-font-size);
+}
+
+
+.cQSWrj input[type="checkbox"]:checked::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 11px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 6px;
+    box-sizing: initial;
+}
+
+
+.cQSWrj input[type="checkbox"]:checked::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(248, 0, 50);
+    border-radius: 2px;
+    border-color: rgb(248, 0, 50);
+    cursor: pointer;
+}
+
+
+
+.label_whats{
+    display: block;
+    margin-top: -21px;
+    margin-left: 20px; 
+}
+
+
+.div_whats{
+    display: block;
+}
+
+.div_tel{
+    margin-left: 9px;
+    margin-bottom: 27px;
+}
+
+
+.p_tel{
+    color:gray;
+    margin-bottom: 7px;
+}
+
+.div_genero_1{
+    font-size: 14px;
+    color: gray;
+    margin-left: 1px;
+    margin-bottom: 9px;
+}
+
+.label_outro {
+    cursor:pointer;
+    color: rgb(102, 102, 102);
+}
+
+
+.div_inputs{
+    display:flex;
+    gap: 11px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.lhATYE .birthDateInput input {
+    width: 113px;
+    margin-top: 8px;
+}
+
+.jvwqVg {
+    outline: none;
+    color: rgb(51, 51, 51);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 1rem;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    padding: 16px 15px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+
+.jvwqVg-2{
+    outline: none;
+    color: rgb(51, 51, 51);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 182px;
+    cursor: text;
+    font-size: 1rem;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    height: 48px;
+    padding: 16px 15px;
+    box-sizing: border-box;
+    padding-left: 29px;
+    margin-bottom: 27px;
+}
+
+
+.jvwqVg-3{
+    outline: none;
+    color: rgb(51, 51, 51);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 182px;
+    cursor: text;
+    font-size: 1rem;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    height: 48px;
+    padding: 16px 15px;
+    box-sizing: border-box;
+    padding-left: 29px;
+    margin-bottom: 27px;
+}
+
+
+
+.href_cpf{
+    display: block;
+    color: gray;
+}
+
+
+
+
+
+.p_cpf{
+    color: gray;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.div_genero{
+    margin-left: 9px;
+    margin-bottom: 27px;
+}
+
+
+.div_cpf{
+    margin-left: 9px;
+    margin-bottom: 27px;
+}
+
+
+
+
+
+.h1_title_form{
+    font-size: 36px;
+    font-weight: bold;
+    height: 41px;
+    margin-bottom: 0px;
+    text-transform: lowercase;
+    color: rgb(102, 102, 102);
+    padding: 111px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.p_title_form{
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-transform: lowercase;
+    color: rgb(102, 102, 102);
+    margin-top: -80px;
+    text-align: center;
+}
+
+
+.icon{
+    font-size: 16px;
+    color: rgb(252, 13, 27);
+    margin-right: 2px;
+}
+
+
+.icons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+.p_icon{
+    margin-bottom: 20px;
+}
+
+
+.label_form_inputs{
+    display: block;
+    margin-bottom: 11px;
+}
+
+
+.input_label_form{
+    margin-top: 7px;
+    margin-left: 9px;
+    width: 351px;
+    height: 41px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    padding-left: 11px;
+}
+
+.input_label_form:focus{
+    outline: 0;
+}
